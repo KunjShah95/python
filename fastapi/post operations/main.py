@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from fastapi import APIRouter
+from fastapi import FastAPI
 class Review(BaseModel):
     id:int
     text:str
